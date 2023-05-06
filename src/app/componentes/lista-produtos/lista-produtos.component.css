@@ -1,0 +1,16 @@
+
+
+.botao__estoque {
+    background: red;
+    color: wheat;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+}
+
+.botaoinvalid {
+    background-color: gray;
+    cursor: none;
+    display: block;
+}

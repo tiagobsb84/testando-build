@@ -1,0 +1,11 @@
+<h2>{{ titulo }}</h2>
+
+<img [src]="urlImagem" style="width: 70px;" alt="foto perfil">
+<br>
+
+<label for="nome">Nome:</label>
+<input type="text" id="nome" [(ngModel)]="nome">
+<br>
+<label for="sobrenome">Sobrenome:</label>
+<input type="text" [(ngModel)]="sobrenome">
+<p>Nome e Sobrenome: {{nome}} {{sobrenome}}</p>

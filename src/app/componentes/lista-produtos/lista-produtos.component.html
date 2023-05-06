@@ -1,0 +1,11 @@
+<h2>Lista de Produtos</h2>
+
+<ul>
+    <li *ngFor="let produto of produtos">
+        <strong>{{ produto.nome }}</strong>
+        <p>{{ produto.descricao }}</p>
+        <button class="botao__estoque" type="button" [ngClass]="produto.estoque?'':'botaoinvalid'">
+            {{ produto.estoque?'disponivel':'esgotado' }}
+        </button>
+    </li>
+</ul>
